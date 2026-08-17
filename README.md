@@ -37,4 +37,13 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 );src/App.jsx
 import React from "react";
 
-export default function LandingPage() {
+export default function LandingPage() {@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
